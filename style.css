@@ -75,4 +75,5 @@ display: flexbox;
 .weatherapp-temp-unit{
     font-size: x-large;
     height: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

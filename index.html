@@ -7,18 +7,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>weather app</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="create.js">
+<link rel="stylesheet" href="creatte.js">
 </head>
 
 <body>
 
     <div class="weatherapp">
     <header>
-        <form class="search-form">
-            <input type="search" placeholder="Enter a city" class="search-form">
-            <input type="submit" value="search" class="search-button">
-            
-     
+        <form class="search-form" id="search-form">
+
+            <input type="search" placeholder="Enter a city ..." required id="search-form-docu" class="search-form">
+            <input type="submit" value="search" id="search-input" class="search-button">
         </form>
 
        
@@ -27,7 +26,7 @@
       <div class="weatherdata">
 
     <div>
-        <h1 class="weathercity"> Richards bay </h1>
+        <h1 class="weathercity " id="city" > Richards bay</h1>
 
 
         <p class="weatherbody">
@@ -58,6 +57,8 @@
 
     </footer>
     </div>
+
+    <script src="creatte.js"></script>
 </body>
 
 
